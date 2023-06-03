@@ -1,0 +1,848 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    background-image: url(./Images/Background\ \(2\).png);
+    background-size: cover;
+}
+
+.homeSection {
+    height: 100vh;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+
+}
+
+.homeSectionLeftContainer {
+    width: 50%;
+    height: 100%;
+}
+
+.homeSectionLeftContainerTop {
+    width: 100%;
+    height: 20%;
+}
+
+.homeSectionLeftContainerTop img {
+    height: 60%;
+    width: 50%;
+}
+
+.homeSectionLeftContainerBottom {
+    width: 100%;
+    height: 80%;
+    padding: 2rem 0;
+}
+
+.homeSectionLeftContainerBottom h2 {
+    font-size: 45px;
+    margin: 1rem 0;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.homeSectionLeftContainerBottom span {
+    font-size: 65px;
+    color: #29B475;
+    font-weight: bold;
+}
+
+.homeSectionLeftContainerBottom h1 {
+    font-size: 65px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.homeSectionRightContainer {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeSectionRightContainer img {
+    height: 90%;
+    width: 90%;
+}
+
+/* ============================================================================================ */
+.TextSection {
+
+    height: 30vh;
+    width: 100%;
+    padding: 0 2rem;
+}
+
+.TextSection h2 {
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.TextSection p {
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+/* ============================================================================================ */
+
+.geeksterWaySection {
+    height: 140vh;
+    width: 100%;
+    padding: 2rem;
+
+}
+
+.geeksterWaySectionContainer {
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #16252C;
+    color: white;
+}
+
+.geeksterWaySectionOverlay {
+
+    position: absolute;
+    /* bottom: 0; */
+    top: 0;
+    /* background-color: rgba(0, 128, 0, 0); */
+    background: linear-gradient(-130deg, rgba(219, 139, 58, 0.235) 3%, rgba(14, 3, 3, 0) 40%, rgba(14, 3, 3, 0) 60%, rgba(215, 140, 65, 0) 5%, rgba(215, 140, 65, 0.162)90%);
+    height: 100%;
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.geeksterWaySectionContainerTop {
+    height: 15%;
+    width: 100%;
+    border: 2px slid green;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.geeksterWaySectionContainerTop h1 {
+    font-size: 70px;
+    color: #29B475;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.geeksterWaySectionContainerBottom {
+    display: inline-block;
+    position: relative;
+    height: 85%;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 1.5rem;
+}
+
+.geeksterWaySectionContainerBottom hr {
+    width: 30%;
+    border: 1px solid white;
+    margin: auto;
+}
+
+.UpskillingContainerGroup {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    background-color: #22ADCF;
+
+    top: 0;
+    /* left: 185px; */
+    left: 13%;
+    border-radius: 50%;
+}
+
+#para {
+    padding-bottom: 1.5rem;
+}
+
+.MentoringContainerGroup {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    background-color: #F69401;
+
+    top: 0;
+    left: 45%;
+    border-radius: 50%;
+}
+
+.PlacementContainerGroup {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    background-color: #29B475;
+
+    top: 0;
+    /* left: 240px; */
+    right: 13%;
+    border-radius: 50%;
+}
+
+.UpskillingContainerGroup img,
+.MentoringContainerGroup img,
+.PlacementContainerGroup img {
+    height: 50%;
+    width: 50%;
+}
+
+.UpskillingContainer {
+
+    height: 85%;
+    width: 28%;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 5.5rem;
+    background-color: #1C3541;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.317); */
+    box-shadow: 0 0 10px #192830;
+}
+
+.MentoringContainer {
+    height: 85%;
+    width: 28%;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 5.5rem;
+    background-color: #1C3541;
+    box-shadow: 0 0 10px #192830;
+}
+
+.PlacementContainer {
+    height: 85%;
+    width: 28%;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 5.5rem;
+    background-color: #1C3541;
+    box-shadow: 0 0 10px #192830;
+}
+
+.UpskillingContainer h2 {
+    color: #24CBF4;
+    font-size: 38px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    margin-bottom: 3rem;
+}
+
+.MentoringContainer h2 {
+    color: #F69401;
+    font-size: 38px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    margin-bottom: 3rem;
+}
+
+.PlacementContainer h2 {
+    color: #2EDE8E;
+    font-size: 38px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    margin-bottom: 3rem;
+}
+
+.UpskillingContainer p {
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin: 2.5rem 0;
+    color: white;
+}
+
+.MentoringContainer p {
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin: 2.5rem 0;
+}
+
+.PlacementContainer p {
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin: 2.5rem 0;
+}
+
+.MentoringContainer span,
+.PlacementContainer span {
+    font-weight: bold;
+}
+
+/* ============================================================================================ */
+
+.downCurriculamSection {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 3rem 2rem;
+
+}
+
+.downCurriculamSectionArrow {
+    position: absolute;
+    height: 120px;
+    width: 140px;
+    /* right: 330px;
+    top: 190px; */
+    right: 20%;
+    top: 28%;
+}
+
+.downCurriculamSectionArrow img {
+    height: 100%;
+    width: 100%;
+}
+
+.downCurriculamSection h2 {
+    font-size: 40px;
+    margin: 1rem 0;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    /* margin: 0 5rem; */
+}
+
+.downCurriculamSection button {
+    height: 100px;
+    width: 40%;
+    border: 2px solid #29B475;
+    margin: auto;
+    color: #29B475;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    background: transparent;
+    outline: none;
+    border-radius: 20px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+/* ============================================================================================ */
+
+
+.happyLearningSection {
+    height: 100vh;
+    width: 100%;
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.happyLearningSectionTop {
+    height: 50%;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #b1b1b13f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.happyLearningSectionTop button {
+    height: 100px;
+    width: 30%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    font-size: 40px;
+    color: white;
+    border-radius: 25px;
+    background-color: #29B475;
+}
+
+.happyLearningSectionBottom {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.happyLearningSectionBottom h2 {
+    margin: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.happyLearningSectionBottom h1 {
+    /* margin: 1rem; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    color: #29B475;
+}
+
+
+@media only screen and (min-width: 667px) and (max-width:1025px) {
+    .homeSectionLeftContainerBottom h2 {
+        font-size: 40px;
+
+    }
+
+    .homeSectionLeftContainerBottom span {
+        font-size: 55px;
+
+    }
+
+    .homeSectionLeftContainerBottom h1 {
+        font-size: 55px;
+
+    }
+
+    .homeSectionRightContainer img {
+        height: 90%;
+        width: 100%;
+    }
+
+    .TextSection h2 {
+        font-size: 40px;
+        margin-bottom: .5rem;
+    }
+
+    .TextSection p {
+        font-size: 30px;
+
+    }
+
+    .geeksterWaySectionContainerTop h1 {
+        font-size: 60px;
+
+    }
+
+    .UpskillingContainerGroup {
+        height: 120px;
+        width: 120px;
+
+        left: 12%;
+    }
+
+    .MentoringContainerGroup {
+        height: 120px;
+        width: 120px;
+        left: 44%;
+
+    }
+
+    .PlacementContainerGroup {
+        height: 120px;
+        width: 120px;
+        right: 12%;
+
+    }
+
+    .UpskillingContainer,
+    .MentoringContainer,
+    .PlacementContainer {
+        width: 30%;
+        padding-top: 4rem;
+    }
+
+    .UpskillingContainer h2,
+    .MentoringContainer h2,
+    .PlacementContainer h2 {
+        font-size: 35px;
+        margin-bottom: 2.5rem;
+    }
+
+    .UpskillingContainer p,
+    .MentoringContainer p,
+    .PlacementContainer p {
+        font-size: 25px;
+        margin: 1.8rem 0;
+    }
+
+    .downCurriculamSection h2 {
+        font-size: 35px;
+        margin: 1rem 0;
+
+    }
+
+    .downCurriculamSection button {
+        height: 90px;
+        width: 50%;
+
+        font-size: 30px;
+
+    }
+
+    .downCurriculamSectionArrow {
+        height: 100px;
+        width: 120px;
+        right: 13%;
+        top: 29%;
+    }
+
+    .happyLearningSectionTop button {
+        height: 90px;
+        width: 45%;
+
+        font-size: 38px;
+
+    }
+
+    .happyLearningSectionBottom h2 {
+
+        font-size: 40px;
+    }
+
+    .happyLearningSectionBottom h1 {
+
+        font-size: 60px;
+
+    }
+}
+
+@media only screen and (min-width: 425px) and (max-width:770px) {
+    .homeSectionLeftContainerBottom {
+        width: 100%;
+        height: 80%;
+        padding: 1rem 0;
+    }
+
+    .homeSectionLeftContainerBottom h2 {
+        font-size: 33px;
+
+    }
+
+    .homeSectionLeftContainerBottom span {
+        font-size: 44px;
+
+    }
+
+    .homeSectionLeftContainerBottom h1 {
+        font-size: 44px;
+
+    }
+
+    .homeSectionRightContainer img {
+        height: 80%;
+        width: 100%;
+    }
+
+    .TextSection h2 {
+        font-size: 35px;
+        margin-bottom: .5rem;
+    }
+
+    .TextSection p {
+        font-size: 25px;
+
+    }
+
+    .geeksterWaySection {
+
+        height: 130vh;
+    }
+
+    .geeksterWaySectionContainerTop h1 {
+        font-size: 50px;
+
+    }
+
+    .UpskillingContainerGroup {
+        height: 110px;
+        width: 110px;
+
+        left: 10%;
+    }
+
+    .MentoringContainerGroup {
+        height: 110px;
+        width: 110px;
+        left: 43%;
+
+    }
+
+    .PlacementContainerGroup {
+        height: 110px;
+        width: 110px;
+        right: 10%;
+
+    }
+
+    .UpskillingContainer,
+    .MentoringContainer,
+    .PlacementContainer {
+        width: 30%;
+        padding-top: 3.5rem;
+    }
+
+    .UpskillingContainer h2,
+    .MentoringContainer h2,
+    .PlacementContainer h2 {
+        font-size: 25px;
+        margin-bottom: 2.2rem;
+    }
+
+    .UpskillingContainer p,
+    .MentoringContainer p,
+    .PlacementContainer p {
+        font-size: 20px;
+        margin: 1.6rem 0;
+    }
+
+    .downCurriculamSection {
+        height: 90vh;
+    }
+
+    .downCurriculamSection h2 {
+        font-size: 26px;
+        margin: 1rem 0;
+
+    }
+
+    .downCurriculamSection button {
+        height: 80px;
+        width: 50%;
+
+        font-size: 25px;
+
+    }
+
+    .downCurriculamSectionArrow {
+        height: 80px;
+        width: 100px;
+        right: 13%;
+        top: 30%;
+    }
+
+    .happyLearningSection {
+        height: 90vh;
+    }
+
+    .happyLearningSectionTop button {
+        height: 80px;
+        width: 55%;
+
+        font-size: 38px;
+
+    }
+
+    .happyLearningSectionBottom h2 {
+
+        font-size: 35px;
+    }
+
+    .happyLearningSectionBottom h1 {
+
+        font-size: 55px;
+
+    }
+}
+
+@media only screen and (min-width: 315px) and (max-width:420px) {
+    .homeSection {
+        height: 60vh;
+        width: 100%;
+        padding: 0 5px;
+        padding-top: 1rem;
+
+    }
+
+    .homeSectionLeftContainerTop img {
+        height: 60%;
+        width: 80%;
+        margin-left: 5px;
+    }
+
+    .homeSectionLeftContainerBottom {
+        width: 100%;
+        height: 80%;
+        padding-left: .3rem;
+
+    }
+
+    .homeSectionLeftContainerBottom h2 {
+        font-size: 14px;
+        margin: .5rem 0;
+    }
+
+    .homeSectionLeftContainerBottom span {
+        font-size: 17px;
+
+    }
+
+    .homeSectionLeftContainerBottom h1 {
+        font-size: 17px;
+
+    }
+
+    .homeSectionRightContainer img {
+        height: 70%;
+        width: 100%;
+    }
+
+    .TextSection {
+        padding: 0 5px;
+        height: 12vh;
+    }
+
+    .TextSection h2 {
+        font-size: 15px;
+        margin-bottom: .3rem;
+    }
+
+    .TextSection p {
+        font-size: 10px;
+
+    }
+
+    .geeksterWaySection {
+        padding: .5rem 5px;
+        height: 75vh;
+
+    }
+
+    .geeksterWaySectionContainerTop h1 {
+        font-size: 20px;
+
+    }
+
+    .geeksterWaySectionContainerBottom {
+
+        height: 85%;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        /* padding-top: 1rem; */
+        /* align-items: start; */
+    }
+
+    .UpskillingContainerGroup {
+        height: 50px;
+        width: 50px;
+        top: 6%;
+        left: 10%;
+    }
+
+    .MentoringContainerGroup {
+        height: 50px;
+        width: 50px;
+        left: 43%;
+        top: 6%;
+    }
+
+    .PlacementContainerGroup {
+        height: 50px;
+        width: 50px;
+        right: 10%;
+        top: 6%;
+
+    }
+
+    .UpskillingContainer,
+    .MentoringContainer,
+    .PlacementContainer {
+        width: 30%;
+        padding-top: 1.8rem;
+
+    }
+
+    .UpskillingContainer h2,
+    .MentoringContainer h2,
+    .PlacementContainer h2 {
+        font-size: 13px;
+        margin-bottom: 1.2rem;
+    }
+
+    .UpskillingContainer p,
+    .MentoringContainer p,
+    .PlacementContainer p {
+        font-size: 10px;
+        margin: 1.2rem 0;
+    }
+
+    #para {
+        padding-bottom: .7rem;
+    }
+
+    .downCurriculamSection {
+        position: relative;
+        height: 40vh;
+        width: 100%;
+        padding: 2rem 5px;
+
+    }
+
+    .downCurriculamSection h2 {
+        font-size: 10px;
+        margin: .5rem 0;
+
+    }
+
+    .downCurriculamSection button {
+        height: 40px;
+        width: 50%;
+        font-size: 10px;
+        border-radius: 10px;
+
+    }
+
+    .downCurriculamSectionArrow {
+        height: 30px;
+        width: 40px;
+        right: 12%;
+        top: 33%;
+    }
+
+    .happyLearningSection {
+        height: 50vh;
+        padding: 1rem 5px;
+    }
+
+    .happyLearningSectionTop button {
+        height: 45px;
+        width: 65%;
+        border-radius: 10px;
+        font-size: 18px;
+
+    }
+
+    .happyLearningSectionBottom h2 {
+        margin: .5rem;
+        font-size: 16px;
+    }
+
+    .happyLearningSectionBottom h1 {
+
+        font-size: 27px;
+
+    }
+}
